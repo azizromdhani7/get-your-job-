@@ -1,6 +1,5 @@
 body{
     background-color:rgb(236, 252, 250);
-    overflow: hidden; /* Hide scrollbars */
 
 }
 #aa{
@@ -9,11 +8,19 @@ body{
    margin: auto;
 }
 #aaa{
- position: relative;
- left: 33%;
+    margin-left: 177px;
 }
 .bb{
-    position: relative;
- left: 73%;
- bottom: 50%;
+float: right;
+}
+.cc{
+    width: 50%;
+    height: 70%;
+    background-color: rgb(251, 251, 190);
+    margin: 50px;
+}
+.cc{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    margin-bottom: 20px;
 }
