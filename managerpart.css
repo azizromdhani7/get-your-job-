@@ -12,6 +12,7 @@ body{
 }
 .bb{
 float: right;
+padding: 10px;;
 }
 .cc{
     width: 50%;
@@ -20,7 +21,10 @@ float: right;
     margin: 50px;
 }
 .cc{
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    border: 5px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     margin-bottom: 20px;
+}
+h3{
+    margin-left: 90%;
 }

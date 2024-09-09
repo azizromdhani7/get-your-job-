@@ -65,6 +65,7 @@ function displayOne(job){
        <h1 id="shahreya">sallary:${job.salary}</p>
      <h1 id ="wa9tkhedma">work time :${job.worktime}</h1>
      <h1 id ="blasa">location : ${job.locations}</h1>
+     <a id="mm" href="the cv.html"><h3>get it</h3></a>  
        </div>`)  
 }
 function displayAll(array){
@@ -90,5 +91,5 @@ displayAll(comp1.list)
       
 
 
-      
+
      
