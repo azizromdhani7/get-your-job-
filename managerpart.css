@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(236, 252, 250);
+    background-color: #f0f0f0;
 
 }
 #aa{
@@ -12,7 +12,8 @@ body{
 }
 .bb{
 float: right;
-padding: 10px;;
+padding: 10px;
+font-size: 18px;
 }
 .cc{
     width: 50%;
@@ -27,4 +28,7 @@ padding: 10px;;
 }
 h3{
     margin-left: 90%;
+}
+#bat{
+    background-color: darkgreen;
 }
