@@ -1,0 +1,19 @@
+body{
+    background-color:rgb(236, 252, 250);
+    overflow: hidden; /* Hide scrollbars */
+
+}
+#aa{
+    width: 77%;
+   display: block;
+   margin: auto;
+}
+#aaa{
+ position: relative;
+ left: 33%;
+}
+.bb{
+    position: relative;
+ left: 73%;
+ bottom: 50%;
+}
