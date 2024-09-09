@@ -73,7 +73,7 @@ function displayAll(array){
         displayOne(element)
     }
 }
-// displayAll(comp1.list)
+displayAll(comp1.list)
        function search() {
         var searjob = $("#input1").val();
         $("#compowner").empty();
@@ -86,5 +86,9 @@ function displayAll(array){
       $("button").on("click", function () {
         search();
       });
+
+      
+
+
       
      
