@@ -19,10 +19,10 @@ body {
 }
 
 input {
-    margin-bottom: 25px; 
+    margin-bottom: 5px; 
     font-size: 20px;
-    width: 300px; 
-    height: 80px;
+    /* width: 00px; 
+    height: 80px; */
 }
 
 .thenya{
@@ -30,5 +30,39 @@ input {
     margin-left: 25%;
     padding: 10px; 
     height: 800px;
-    width: 650px;
+    width: 650px;  
+    flex-wrap: wrap;
+}
+
+#ll{
+     margin-left: 120%;
+     padding: 10px;
+     font-size: 18px;
+     z-index: 1;
+    
+}
+h1{
+    text-align: center;
+}
+#h11{
+    margin-right: 80%;
+    margin-bottom: 20%;
+}
+#h12{
+    margin-right: 60%;
+}
+#h13{
+    margin-right: 80%;
+}
+#h14{
+    margin-right: 80%;
+}
+#h15{
+    margin-right: 80%;
+}
+#h16{
+    margin-right: 80%;
+}
+#h17{
+    margin-right: 80%;
 }
