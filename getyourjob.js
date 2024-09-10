@@ -69,7 +69,7 @@ displayAll(comp1.list)
         $("#compowner").empty();
      var x=  comp1.displaybyname(searjob);
      if(x.length==0){
-        alert('                       ***not found***')
+        alert('                        ***not found***')
      }
      displayAll(x)
       }

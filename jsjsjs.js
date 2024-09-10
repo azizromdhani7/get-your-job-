@@ -33,8 +33,8 @@ $('.thenya').append(`<div >
     <h1 id="h12">${z}</h1>  <br>
     <h1 id="h13">${d}</h1>  <br>
     <h1 id="h14">${f}</h1><br>
-    <h1 id="h15">${k}</h1><br>
-    <h1 id="h16">${p}</h1><br>
-    <h1 id="h17">${q}</h1><br>
+    <h4 id="h15">${k}</h4><br>
+    <h4 id="h16">${p}</h4><br>
+    <h4 id="h17">${q}</h4><br>
     </div>`)
 })
