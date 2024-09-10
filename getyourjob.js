@@ -1,4 +1,3 @@
-//oop
 function each(array, func) {
     for (let i = 0; i < array.length; i++) {
       func(array[i], i);
@@ -29,10 +28,7 @@ worktime:worktime,
 locations:locations
         }
     }
-
-
 function companyproduct(){
-
 const addjob=function (jobname,salary,worktime,locations){
   this.list.push(factory(jobname,salary,worktime,locations))
 }
@@ -45,19 +41,12 @@ return  filter(this.list,function(kk){
     obj.list=[]
     obj.displaybyname=displaybyname;
     obj.addjob=addjob;
-
 return obj 
 }
-
 var comp1=companyproduct()
 comp1.addjob("dev",1500,"8h/5j","rue tahran depar num 23 mannouba")
 comp1.addjob("devp",1500,"8h/5j","rue tahran depar num 23 mannouba")
 comp1.addjob("devpp",1500,"8h/5j","rue tahran depar num 23 mannouba")
-
-console.log(comp1.list);
-console.log( comp1.displaybyname('dev'));
-
-
 
 function displayOne(job){
   $("#compowner").append(`<div class = "cc"> 
